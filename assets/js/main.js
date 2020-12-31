@@ -191,6 +191,30 @@
       }
     });
 
+    $(".service-carousel").owlCarousel({
+      autoplay: true,
+      dots: false,
+      loop: true,
+      center: true,
+      startPosition: 0,
+      stagePadding: 1.3,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1.2
+        },
+        576: {
+          items: 1.3
+        },
+        768: {
+          items: 2
+        },
+        900: {
+          items: 2
+        }
+      }
+    });
+
   // Porfolio isotope and filter
   $(window).on('load', function() {
     var portfolioIsotope = $('.portfolio-container').isotope({
