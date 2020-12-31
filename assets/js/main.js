@@ -172,6 +172,7 @@
       dots: false,
       loop: true,
       center: true,
+      rewind: true,
       startPosition: 1,
       stagePadding: 1.3,
       autoplayHoverPause: true,
@@ -196,6 +197,134 @@
       dots: false,
       loop: true,
       center: true,
+      rewind: true,
+      startPosition: 0,
+      stagePadding: 1.3,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1.2
+        },
+        576: {
+          items: 1.3
+        },
+        768: {
+          items: 2
+        },
+        900: {
+          items: 2
+        }
+      }
+    });
+
+    $(".event-carousel").owlCarousel({
+      autoplay: true,
+      dots: false,
+      loop: true,
+      center: true,
+      stagePadding: 1,
+      rewind: true,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1.2
+        },
+        576: {
+          items: 1.3
+        },
+        768: {
+          items: 2
+        },
+        900: {
+          items: 2
+        }
+      }
+    });
+
+    $(".feature1-carousel").owlCarousel({
+      autoplay: true,
+      dots: false,
+      loop: true,
+      center: true,
+      rewind: true,
+      startPosition: 0,
+      autoplayTimeout: 3000,
+      stagePadding: 1.3,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1.2
+        },
+        576: {
+          items: 1.3
+        },
+        768: {
+          items: 2
+        },
+        900: {
+          items: 2
+        }
+      }
+    });
+
+    $(".feature2-carousel").owlCarousel({
+      autoplay: true,
+      dots: false,
+      loop: true,
+      center: true,
+      rewind: true,
+      startPosition: 0,
+      autoplayTimeout: 4000,
+      stagePadding: 1.3,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1.2
+        },
+        576: {
+          items: 1.3
+        },
+        768: {
+          items: 2
+        },
+        900: {
+          items: 2
+        }
+      }
+    });
+
+    $(".feature3-carousel").owlCarousel({
+      autoplay: true,
+      dots: false,
+      loop: true,
+      center: true,
+      rewind: true,
+      startPosition: 0,
+      stagePadding: 1.3,
+      autoplayTimeout: 5000,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1.2
+        },
+        576: {
+          items: 1.3
+        },
+        768: {
+          items: 2
+        },
+        900: {
+          items: 2
+        }
+      }
+    });
+
+    $(".team-carousel").owlCarousel({
+      autoplay: true,
+      dots: false,
+      loop: true,
+      center: true,
+      rewind: true,
       startPosition: 0,
       stagePadding: 1.3,
       autoplayHoverPause: true,
